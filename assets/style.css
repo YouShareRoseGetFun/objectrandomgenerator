@@ -29,3 +29,7 @@ ol,ul{padding-left:22px}
 footer.site{border-top:1px solid var(--line);margin-top:44px;padding:20px 0;color:var(--muted);font-size:14px}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media(max-width:520px){h1{font-size:26px}nav a{margin-left:12px}}
+footer.site .wrap{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between}
+footer.site .links{display:flex;flex-wrap:wrap;gap:14px}
+footer.site a{color:var(--muted);text-decoration:none}
+footer.site a:hover{color:var(--text);text-decoration:underline}
