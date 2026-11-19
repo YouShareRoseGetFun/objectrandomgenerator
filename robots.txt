@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /README.md
+Disallow: /tests/
+
+Sitemap: https://objectrandomgenerator.com/sitemap.xml

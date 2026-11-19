@@ -1,0 +1,12 @@
+{
+  "home": {"easy": ["table", "chair", "mug", "spoon", "pan", "basket", "candle"], "medium": ["lamp", "kettle", "mirror", "pillow", "clock"], "hard": ["toaster", "blender"]},
+  "food": {"easy": ["apple", "banana", "egg", "carrot", "cookie"], "medium": ["pizza", "donut", "sandwich", "lemon", "ice cream"], "hard": ["steak", "cake"]},
+  "animals": {"easy": ["cat", "dog", "fish", "bee", "snail"], "medium": ["owl", "rabbit", "turtle", "horse", "penguin"], "hard": ["butterfly", "elephant"]},
+  "nature": {"easy": ["tree", "leaf", "rock", "cloud", "sunflower"], "medium": ["mushroom", "snowflake", "seashell", "cactus", "feather"], "hard": ["mountain", "river"]},
+  "travel": {"easy": ["car", "boat", "bus", "bicycle", "airplane"], "medium": ["truck", "train", "scooter", "balloon", "suitcase"], "hard": ["helicopter", "rocket"]},
+  "tools": {"easy": ["hammer", "wrench", "saw", "bucket", "key"], "medium": ["screwdriver", "drill", "ladder", "shovel", "paintbrush"], "hard": ["toolbox", "tape measure"]},
+  "clothes": {"easy": ["shoe", "hat", "sock", "glove", "scarf"], "medium": ["jacket", "backpack", "umbrella", "belt", "boot"], "hard": ["sunglasses", "raincoat"]},
+  "school": {"easy": ["pencil", "notebook", "ruler", "eraser", "crayon"], "medium": ["scissors", "calculator", "stapler", "paperclip", "glue"], "hard": ["highlighter", "pencil sharpener"]},
+  "toys": {"easy": ["ball", "kite", "dice", "marble", "teddy bear"], "medium": ["skateboard", "yo-yo", "frisbee", "doll", "puzzle"], "hard": ["chess piece", "trampoline"]},
+  "odds": {"easy": ["envelope", "crown", "magnet", "compass", "lantern"], "medium": ["anchor", "mask", "telescope", "treasure chest", "trophy"], "hard": ["robot", "crystal"]}
+}

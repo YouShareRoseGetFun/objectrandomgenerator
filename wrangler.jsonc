@@ -1,0 +1,8 @@
+{
+  "name": "objectrandomgenerator",
+  "compatibility_date": "2025-11-19",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page"
+  }
+}

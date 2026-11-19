@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Object Random Generator – Random Objects in One Click</title>
+<meta name="description" content="Pick random objects in one click. Choose a category and difficulty, generate up to 50 at a time, and use them for drawing prompts, classroom games or live streams.">
+<link rel="canonical" href="https://objectrandomgenerator.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Object Random Generator – Random Objects in One Click">
+<meta property="og:description" content="Pick random objects in one click. Choose a category and difficulty, generate up to 50 at a time.">
+<meta property="og:url" content="https://objectrandomgenerator.com/">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Object Random Generator","url":"https://objectrandomgenerator.com/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"A free random object generator. Pick a category and a drawing difficulty, then draw up to 50 random objects at a time."}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Is the object random generator free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The generator is free to use and needs no sign-up, no download and no account. Just pick your filters and press Generate."}},
+{"@type":"Question","name":"Can I generate more than one object at a time?","acceptedAnswer":{"@type":"Answer","text":"Yes. Set the number anywhere from 1 to 50 and the generator returns that many objects in one click. This is how most teachers and streamers use it, so nobody has to wait for a second draw."}},
+{"@type":"Question","name":"Can I pick only food or only animals?","acceptedAnswer":{"@type":"Answer","text":"Yes. Untick the categories you do not want and the generator only draws from the ones left on. You can also filter by drawing difficulty, which helps when the objects are for a sketchbook rather than a word game."}},
+{"@type":"Question","name":"Are the results really random?","acceptedAnswer":{"@type":"Answer","text":"They are. Every click shuffles the full list and takes the first objects, so each draw is independent of the last one. Turning on Unique removes the objects you already drew so a session never repeats itself."}},
+{"@type":"Question","name":"Can I get objects that are easy to draw?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every object is tagged easy, medium or hard, and you can limit the draw to easy ones when you are drawing with children or under time pressure."}}
+]}
+</script>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="/">Object Random Generator</a>
+<nav><a href="#objects">All objects</a><a href="#faq">FAQ</a></nav>
+</div></header>
+
+<main class="wrap">
+<h1>Object Random Generator</h1>
+<p class="lede">Draw random objects for drawing prompts, classroom games and live streams. Pick your filters, press Generate, get up to 50 objects at once — free, no sign-up.</p>
+
+<section class="tool" aria-label="Object random generator">
+  <div class="row">
+    <label for="count">How many</label>
+    <input id="count" type="number" min="1" max="50" value="5">
+    <label class="chk"><input id="unique" type="checkbox"> Unique</label>
+    <button id="generate" type="button">Generate</button>
+    <button id="share" type="button" class="ghost">Copy link to this draw</button>
+  </div>
+  <h2 class="sr-only">Categories</h2>
+  <div class="row" style="margin-top:12px">
+    <label class="chk"><input type="checkbox" name="cat" value="home" checked> Home &amp; Kitchen</label>
+    <label class="chk"><input type="checkbox" name="cat" value="food" checked> Food &amp; Drink</label>
+    <label class="chk"><input type="checkbox" name="cat" value="animals" checked> Animals</label>
+    <label class="chk"><input type="checkbox" name="cat" value="nature" checked> Nature</label>
+    <label class="chk"><input type="checkbox" name="cat" value="travel" checked> Vehicles</label>
+    <label class="chk"><input type="checkbox" name="cat" value="tools" checked> Tools</label>
+    <label class="chk"><input type="checkbox" name="cat" value="clothes" checked> Clothes</label>
+    <label class="chk"><input type="checkbox" name="cat" value="school" checked> School</label>
+    <label class="chk"><input type="checkbox" name="cat" value="toys" checked> Toys</label>
+    <label class="chk"><input type="checkbox" name="cat" value="odds" checked> Odds &amp; Ends</label>
+  </div>
+  <div class="row" style="margin-top:10px">
+    <label class="chk"><input type="checkbox" name="diff" value="easy" checked> Easy to draw</label>
+    <label class="chk"><input type="checkbox" name="diff" value="medium" checked> Medium</label>
+    <label class="chk"><input type="checkbox" name="diff" value="hard" checked> Hard</label>
+  </div>
+  <ul id="results" aria-live="polite"></ul>
+  <p id="status">Press Generate to draw your first objects.</p>
+</section>
+
+<h2>What is this object random generator?</h2>
+<p>This is a free random object generator: a list of more than 120 everyday objects, grouped into ten categories and tagged by how hard each one is to draw. Every draw shuffles the whole list and takes the first few items, so the results are unpredictable but never made up on the fly — you always get a real, recognisable object back.</p>
+<p>Nobody needs an account or an app. Open the page, press one button, and the objects appear. If you want a draw you can send to someone else, press <em>Copy link to this draw</em> and the URL keeps your filters, so the same setup opens on their screen too.</p>
+
+<h2>How to use the object random generator</h2>
+<ol>
+<li><strong>Set how many</strong> objects you want — anywhere from 1 to 50. Five is a good default for a warm-up round.</li>
+<li><strong>Narrow the categories.</strong> Untick everything except Food &amp; Drink if you are playing a kitchen game, or leave only Animals for a classroom quiz.</li>
+<li><strong>Pick a difficulty.</strong> Choose Easy to draw when children are sketching under a timer, or all three when you just need ideas.</li>
+<li><strong>Press Generate.</strong> Tick Unique and every click removes the objects you have already seen, so a session never repeats. Tick it off again to reset.</li>
+</ol>
+
+<h2>Every object in the list</h2>
+<p>The full list is below, grouped by category. The generator draws from exactly these objects — nothing else appears.</p>
+<div class="cats" id="objects">
+<div><b>Home &amp; Kitchen</b><p>table, chair, mug, spoon, pan, basket, candle, lamp, kettle, mirror, pillow, clock, toaster, blender</p></div>
+<div><b>Food &amp; Drink</b><p>apple, banana, egg, carrot, cookie, pizza, donut, sandwich, lemon, ice cream, steak, cake</p></div>
+<div><b>Animals</b><p>cat, dog, fish, bee, snail, owl, rabbit, turtle, horse, penguin, butterfly, elephant</p></div>
+<div><b>Nature &amp; Outdoors</b><p>tree, leaf, rock, cloud, sunflower, mushroom, snowflake, seashell, cactus, feather, mountain, river</p></div>
+<div><b>Vehicles &amp; Travel</b><p>car, boat, bus, bicycle, airplane, truck, train, scooter, balloon, suitcase, helicopter, rocket</p></div>
+<div><b>Tools &amp; Workshop</b><p>hammer, wrench, saw, bucket, key, screwdriver, drill, ladder, shovel, paintbrush, toolbox, tape measure</p></div>
+<div><b>Clothes &amp; Accessories</b><p>shoe, hat, sock, glove, scarf, jacket, backpack, umbrella, belt, boot, sunglasses, raincoat</p></div>
+<div><b>School &amp; Office</b><p>pencil, notebook, ruler, eraser, crayon, scissors, calculator, stapler, paperclip, glue, highlighter, pencil sharpener</p></div>
+<div><b>Toys &amp; Sports</b><p>ball, kite, dice, marble, teddy bear, skateboard, yo-yo, frisbee, doll, puzzle, chess piece, trampoline</p></div>
+<div><b>Odds &amp; Ends</b><p>envelope, crown, magnet, compass, lantern, anchor, mask, telescope, treasure chest, trophy, robot, crystal</p></div>
+</div>
+
+<h2>What people use a random object generator for</h2>
+<p><strong>Drawing prompts.</strong> The hardest part of a sketchbook session is deciding what to draw. Draw three objects, set a ten-minute timer and sketch all three — that is a full study session with no scrolling for ideas. With the Easy filter on, the prompts stay drawable for beginners and children.</p>
+<p><strong>Classroom games.</strong> Teachers use the generator for guessing games, spelling rounds and storytelling warm-ups. Draw one object per student and ask for a sentence about it, or draw four and ask for a story that links all four. The category filter keeps the vocabulary at the right level for the class.</p>
+<p><strong>Live streams and videos.</strong> Streamers draw a list of objects on screen and then have to find, build or draw them. Copying the draw link lets the idea be repeated on a second stream, and viewers can open the exact same filters at home.</p>
+<p><strong>Writing and improv.</strong> Two unrelated objects is the fastest way out of a blank page. A kettle and a crown in the same scene already suggests a story; three random objects give an improv group its opening premise.</p>
+<p><strong>Word games and party games.</strong> Charades, Pictionary and twenty-questions all need a steady stream of nouns. Generate 20 objects once, keep the list on your phone, and the game runs without anybody thinking of examples.</p>
+
+<h2>Categories, difficulty and repeat draws</h2>
+<p>Two filters do most of the work. <strong>Category</strong> controls the vocabulary: everything is an everyday object that a native speaker would recognise instantly, but the ten groups let you aim at food, animals, tools or anything in between. <strong>Difficulty</strong> is about drawing, not about the word — a table is easy, a blender is not, and a trampoline sits somewhere in the middle.</p>
+<p>The <strong>Unique</strong> toggle is what makes long sessions work. Without it, every draw is independent and short lists repeat. With it on, each object is removed after it appears, which is exactly what a game round needs. When the selection runs out, the generator says so and suggests widening the filters instead of silently repeating.</p>
+
+<h2 id="faq">Questions about the object random generator</h2>
+<h3>Is the object random generator free?</h3>
+<p>Yes. The generator is free to use and needs no sign-up, no download and no account. Just pick your filters and press Generate.</p>
+<h3>Can I generate more than one object at a time?</h3>
+<p>Yes. Set the number anywhere from 1 to 50 and the generator returns that many objects in one click. This is how most teachers and streamers use it, so nobody has to wait for a second draw.</p>
+<h3>Can I pick only food or only animals?</h3>
+<p>Yes. Untick the categories you do not want and the generator only draws from the ones left on. You can also filter by drawing difficulty, which helps when the objects are for a sketchbook rather than a word game.</p>
+<h3>Are the results really random?</h3>
+<p>They are. Every click shuffles the full list and takes the first objects, so each draw is independent of the last one. Turning on Unique removes the objects you already drew so a session never repeats itself.</p>
+<h3>Can I get objects that are easy to draw?</h3>
+<p>Yes. Every object is tagged easy, medium or hard, and you can limit the draw to easy ones when you are drawing with children or under time pressure.</p>
+</main>
+
+<footer class="site"><div class="wrap">Object Random Generator — free, no sign-up, works in any browser.</div></footer>
+<script src="/assets/app.js" defer></script>
+</body>
+</html>
